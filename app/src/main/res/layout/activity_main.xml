@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CustomStyle"
+    android:orientation="vertical"
+    android:background="@color/Black"
+    tools:context="com.example.root.animationexample.MainActivity"
+    android:weightSum="1">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.1">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Transition"
+        android:id="@+id/starttranisiton"
+        android:background="@color/Black"
+        android:textColor="@color/White"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="458dp"
+            android:id="@+id/imv"
+            android:src="@drawable/bulboff"/>
+    </LinearLayout>
+
+</LinearLayout>
